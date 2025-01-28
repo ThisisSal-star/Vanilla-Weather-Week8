@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Vanilla Weather</title>
+</head>
+<body>
+    <div class="vanilla-weatherapp">
+    <header>
+        <form class="Search-form"  id="Search-form">
+        <input type="search" placeholder="Enter city.." required class="search-input" id="search-input" >
+        <input type="Submit" value="Search" class="search-button">
+    </form>
+    </header>
+    <main>
+        <div class="vanillaweather-app">
+        <div>
+        <h1 class="weather-city" id="weather-city">Paris</h1>
+        <p class="weather-detail" >
+            <span id="time"></span>, 
+            <span id="description"></span> 
+            <br/>
+            Humidity: <strong id="humidity"></strong> , Wind: <strong id="wind-speed"></strong> 
+        </p>
+    </div>
+        <div class="weathertemp-container">
+            <div  id="icon">
+                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+                class="weather-icon"
+                />
+            </div>
+            <div class="weather-temp" id="weather-temp">12</div> 
+            <div class="weather-unit">&deg; C</div>
+        </div>
+    </div>
+  
+</main>
+    <footer>
+    <p>
+        This project was coded by
+        <a href="https://github.com/ThisisSal-star" target="_blank">Sal Njoroge</a> and is
+        <a href="https://github.com/ThisisSal-star/Vanilla-Weather-Week7" target="_blank"> on GitHub</a> and
+        <a href="https://vanilla-weather-wk7.netlify.app/" target="_blank">hosted on Netlify</a>
+      </p> 
+    </footer>
+</div>
+<script src="src/index.js"></script>
+</body>
+</html>
