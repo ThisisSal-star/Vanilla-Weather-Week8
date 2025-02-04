@@ -12,7 +12,7 @@ body{
   
   .vanilla-weatherapp{
      background-color: white; 
-     max-width: 650px;
+     max-width: 800px;
      padding: 30px;
      margin: 50px auto;
      border-radius: 20px;
@@ -96,5 +96,33 @@ body{
     color:rgb(63, 59, 245)  ;  
   }
   
-  
+  .forecast-day{
+    text-align: center;
+    color:rgb(134, 128, 128);
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .forecast-icon {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .forecast-temp{
+text-align: center;
+color: rgb(241, 47, 112);
+margin-top: 10px;
+display: flex;
+justify-content: center;
+  }
+
+  .forecast-temps{
+    padding: 0 10px;
+  }
+
+  .vanillaweather-forecast{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
   
