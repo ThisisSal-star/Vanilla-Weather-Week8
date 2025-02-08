@@ -70,3 +70,18 @@ let searchForm = document.querySelector ("#Search-form");
 searchForm.addEventListener("submit", submitForm);
 
 searchCity("Paris");
+
+let forecast =document.querySelector("#forecast");
+    forecast.innerHTML=
+    <div class="forecast-day">
+    <div class="forecast-date">Tue</div>
+<div class="forecast-icon">🌤</div>
+<div class="forecast-temp">
+    <div class="forecast-temps">   
+     <strong> 15&deg;</strong>  9&deg;
+    <div>  
+    
+ </div>
+</div>
+
+
